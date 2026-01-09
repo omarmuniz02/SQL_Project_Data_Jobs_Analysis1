@@ -1,8 +1,10 @@
-/* QUESTIONS:
--what are the top paying Data Analyst jobs
--identify the top 10 highest paying DA jobs that are available remotely 
--focus on specific postings with specifc salaries (remove nulls)
-why? */ 
+/* 
+QUESTIONS:
+- What are the top paying Data Analyst jobs
+- Identify the top 10 highest paying DA jobs that are available remotely 
+- Focus on specific postings with specific salaries (remove nulls)
+- Why? 
+*/ 
 
 SELECT 
     job_id,

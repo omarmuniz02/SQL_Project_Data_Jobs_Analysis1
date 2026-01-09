@@ -1,3 +1,10 @@
+/* 
+Questions:
+-Look at the average salary associated with each skill for Data Analyst positions
+- Focus on roles with specified salaries, regardless of location, but that offer work from home options
+- Rank the skills by average salary to identify the top paying skills for remote Data Analyst jobs
+*/
+
 SELECT 
     skills,
     ROUND(AVG(salary_year_avg), 0) AS avg_salary

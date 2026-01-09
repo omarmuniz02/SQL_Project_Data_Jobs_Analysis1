@@ -1,3 +1,12 @@
+/* 
+Questions:
+-Identify the optimal skills for 'Data Analyst' positions that offer work from home options
+-Consider both the demand (number of job postings requiring each skill) and the average salary associated with each skill
+-Focus on skills that are in high demand (e.g., required by more than 10 job postings)
+-Rank the skills by average salary while also considering their demand
+*/
+
+
 SELECT 
     skills_dim.skill_id,
     skills_dim.skills,

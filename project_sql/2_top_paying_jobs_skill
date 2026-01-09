@@ -1,7 +1,9 @@
-/* QUESTIONS 
+/* 
+QUESTIONS 
 - What skills are required for the top paying Data Analyst jobs?
 - Identify the skills associated with the top 10 highest paying DA jobs that are available remotely
-- add the specific skills required for these postings */
+- Add the specific skills required for these postings 
+*/
 
 WITH top_paying_jobs AS (
     SELECT 

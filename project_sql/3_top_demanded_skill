@@ -1,4 +1,9 @@
-
+/* 
+Questions:
+-SQL query to find the top 5 most demanded skills for 'Data Analyst' positions that offer work from home options
+-Join job postings to inner join table similar to query 2
+-Focus on ALL job postings 
+*/
 SELECT 
     skills,
     COUNT(skills_job_dim.job_id) AS demand_count
