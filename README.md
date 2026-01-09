@@ -156,16 +156,16 @@ Heres the breakdown of the most demanded skills for Data Analysts in 2023:
 
 The following table shows the most frequently requested skills across job postings in the dataset.
 
-| Skill     | Demand Count |
-|-----------|--------------|
-| SQL       | 7,291        |
-| Excel     | 4,611        |
-| Python    | 4,330        |
-| Tableau   | 3,745        |
-| Power BI  | 2,609        |
-**Insight:** 
-- **SQL** appears as the most in-demand skill, reinforcing its importance as a foundational requirement for data analyst roles.
+| Skill   | Demand Count |
+|---------|-------------|
+| SQL     | 7,291       |
+| Excel   | 4,611       |
+| Python  | 4,330       |
+| Tableau | 3,745       |
+| Power BI| 2,609       |
 
+**Insight:**  
+SQL appears as the most in-demand skill, reinforcing its importance as a foundational requirement for data analyst roles.
 
 ### 4. Skills Based on Salary
 Exploring the average salories associated with different skills revealed which skills are the highest paying.
@@ -198,37 +198,38 @@ Here's a breakdown of the results for top paying skills for Data Analyst:
 The table below shows the average annual salary associated with specific technical skills, based on job postings in the dataset.
 
 | Skill           | Avg Salary (USD) |
-|-----------------|------------------|
-| PySpark         | $208,172         |
-| Bitbucket       | $189,155         |
-| Watson          | $160,515         |
-| Couchbase       | $160,515         |
-| DataRobot       | $155,486         |
-| GitLab          | $154,500         |
-| Jupyter         | $152,777         |
-| Pandas          | $151,821         |
-| Swift           | $153,750         |
-| NumPy           | $143,513         |
-| Databricks      | $141,907         |
-| Linux           | $136,508         |
-| Kubernetes      | $132,500         |
-| Atlassian       | $131,162         |
-| Airflow         | $126,103         |
-| Jenkins         | $125,436         |
-| Scikit-learn    | $125,781         |
-| Notion          | $125,000         |
-| Scala           | $124,903         |
-| PostgreSQL      | $123,879         |
-| GCP             | $122,500         |
-| MicroStrategy   | $121,619         |
-| Twilio          | $127,000         |
-| Golang          | $145,000         |
-| Elasticsearch   | $145,000         |
-**Insights:**
-- Distributed data tools such as **PySpark** and **Databricks** command the highest average salaries.
+|-----------------|-----------------|
+| PySpark         | $208,172        |
+| Bitbucket       | $189,155        |
+| Watson          | $160,515        |
+| Couchbase       | $160,515        |
+| DataRobot       | $155,486        |
+| GitLab          | $154,500        |
+| Jupyter         | $152,777        |
+| Pandas          | $151,821        |
+| Swift           | $153,750        |
+| NumPy           | $143,513        |
+| Databricks      | $141,907        |
+| Linux           | $136,508        |
+| Kubernetes      | $132,500        |
+| Atlassian       | $131,162        |
+| Airflow         | $126,103        |
+| Jenkins         | $125,436        |
+| Scikit-learn    | $125,781        |
+| Notion          | $125,000        |
+| Scala           | $124,903        |
+| PostgreSQL      | $123,879        |
+| GCP             | $122,500        |
+| MicroStrategy   | $121,619        |
+| Twilio          | $127,000        |
+| Golang          | $145,000        |
+| Elasticsearch   | $145,000        |
 
-- **Cloud, DevOps**, and **data infrastructure skills** (**GCP, Kubernetes, Airflow**) consistently correlate with six-figure salaries.
+**Insight:**  
+- Distributed data tools such as **PySpark** and **Databricks** command the highest average salaries.  
+- **Cloud, DevOps**, and **data infrastructure skills** (**GCP, Kubernetes, Airflow**) consistently correlate with six-figure salaries.  
 - **Python ecosystem tools (Pandas, NumPy, Scikit-learn)** remain highly valued across roles.
+
 
 ### 5. Most Optimal Skills to Learn
 Combining insights from demand and salary data, this query aimed to pinpoint skills that are both in high demand and have high salaries, offering a strategic focus for skill development. 
@@ -259,32 +260,33 @@ LIMIT 25;
 This table highlights technical skills ranked by a combination of demand frequency and average annual salary from job postings.
 
 | Skill        | Demand Count | Avg Salary (USD) |
-|--------------|--------------|------------------|
-| Python       | 236          | $101,397         |
-| Tableau      | 230          | $99,288          |
+|--------------|--------------|-----------------|
+| Python       | 236          | $101,397        |
+| Tableau      | 230          | $99,288         |
 | R            | 148          | $100,499        |
-| Looker       | 49           | $103,795         |
-| Snowflake    | 37           | $112,948         |
-| Oracle       | 37           | $104,534         |
-| SQL Server   | 35           | $97,786          |
-| Azure        | 34           | $111,225         |
-| AWS          | 32           | $108,317         |
-| SAS          | 63           | $98,902          |
-| Java         | 17           | $106,906         |
-| Hadoop       | 22           | $113,193         |
-| BigQuery     | 13           | $109,654         |
-| Go           | 27           | $115,320         |
-| Spark        | 13           | $99,077          |
-| Redshift     | 16           | $99,936          |
-| NoSQL        | 13           | $101,414         |
-| JavaScript   | 20           | $97,587          |
-| Jira         | 20           | $104,918         |
-| Confluence   | 11           | $114,210         |
-**Insights:**
-- **Python** and **Tableau** show the highest demand, reinforcing their role as core data analyst tools.
-- **Cloud** and **Data Platform Skills** (**Snowflake, Azure, AWS, BigQuery**) consistently correlate with higher average salaries.
+| Looker       | 49           | $103,795        |
+| Snowflake    | 37           | $112,948        |
+| Oracle       | 37           | $104,534        |
+| SQL Server   | 35           | $97,786         |
+| Azure        | 34           | $111,225        |
+| AWS          | 32           | $108,317        |
+| SAS          | 63           | $98,902         |
+| Java         | 17           | $106,906        |
+| Hadoop       | 22           | $113,193        |
+| BigQuery     | 13           | $109,654        |
+| Go           | 27           | $115,320        |
+| Spark        | 13           | $99,077         |
+| Redshift     | 16           | $99,936         |
+| NoSQL        | 13           | $101,414        |
+| JavaScript   | 20           | $97,587         |
+| Jira         | 20           | $104,918        |
+| Confluence   | 11           | $114,210        |
 
+**Insight:**  
+- **Python** and **Tableau** show the highest demand, reinforcing their role as core data analyst tools.  
+- **Cloud** and **Data Platform Skills** (**Snowflake, Azure, AWS, BigQuery**) consistently correlate with higher average salaries.  
 - Lower-demand but specialized tools (**Go, Hadoop, Confluence**) command higher salaries, suggesting niche expertise premiums.
+
 
 # What I learned
 Throughout this project, I've reinforced my SQL understandings with:
