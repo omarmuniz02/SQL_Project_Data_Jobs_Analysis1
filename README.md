@@ -13,7 +13,7 @@ Driven by a quest to navigate the data analyst job market more effectively, this
 
 # Tools I used
 For my deep dive into the Data Analyst job market, I gathered the power of several key tools:
-- **SQL**: The backbone of my analysis, allowing me to query the database and unearch critical iinsights.
+- **SQL**: The backbone of my analysis, allowing me to query the database and unearth critical iinsights.
 - **Postgres SQL**: The chosen database management system, ideal for handeling the job posting data. 
 - **Visual Studio Code**: My go-to for database management and executing SQL queries. 
 
